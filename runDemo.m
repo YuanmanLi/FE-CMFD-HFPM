@@ -13,7 +13,7 @@ clear all
 dbstop if error
 addpath 'lib\vlfeat-0.9.18\mexw64' 'functions'
 
-img_name = 'wading_copy_r120.png';
+img_name = 'copy_move_11.png';
 
 im_file = ['test_pic\', img_name];
 fprintf('Processing: %s\n',im_file);
@@ -22,6 +22,6 @@ tstart = tic;
 tproc = toc(tstart);
 tps = datestr(datenum(0,0,0,0,0,tproc),'HH:MM:SS');
 
- 
+%imwrite(map, ['test_pic\result_', img_name])
 imshow(map)
 fprintf('\nComputational time: %s\n', tps);
