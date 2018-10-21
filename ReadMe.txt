@@ -19,3 +19,5 @@ F600:  97.50%     5.68%
 GRIP:  100%,      0%
 FAU:   100%,      2.08%
 
+
+A new version for our journal paper will be released soon. 
