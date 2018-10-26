@@ -13,12 +13,12 @@ clear all
 dbstop if error
 addpath 'lib\vlfeat-0.9.18\mexw64' 'functions'
 
-img_name = 'copy_move_11.png';
+img_name = 'barrier_copy_s250.png';
 
 im_file = ['test_pic\', img_name];
 fprintf('Processing: %s\n',im_file);
 tstart = tic;
-[countTrasfGeom,map] = process_image(im_file,0);
+[countTrasfGeom,map] = process_image(im_file,0,1);
 tproc = toc(tstart);
 tps = datestr(datenum(0,0,0,0,0,tproc),'HH:MM:SS');
 
