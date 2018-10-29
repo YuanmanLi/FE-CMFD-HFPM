@@ -18,6 +18,10 @@ img_name = 'barrier_copy_s250.png';
 im_file = ['test_pic\', img_name];
 fprintf('Processing: %s\n',im_file);
 tstart = tic;
+%%input: 
+%%first para: input file
+%%second para: whether show the matches, default 0
+%%third para: whether conduct large resizing (set 1 when s>2). default 0. 
 [countTrasfGeom,map] = process_image(im_file,0,1);
 tproc = toc(tstart);
 tps = datestr(datenum(0,0,0,0,0,tproc),'HH:MM:SS');

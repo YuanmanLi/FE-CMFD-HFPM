@@ -4,9 +4,9 @@ This code was developed by Li Yuanman
 yuanmanx.li@gmail.com
 19/3/2018
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Please cite the paper if you use this code:
-[1] Y. M. Li and J. T. Zhou, ¡°Fast and Effective Image Copy-Move Forgery Detection via Hierarchical Feature Point Matching¡±,  To appear in IEEE Trans. on Inf. Forensics and Security (T-IFS), 2018.
-[2] Y. M. Li and J. T. Zhou, ¡°Image Copy-Move Forgery Detection Using Hierarchical Feature Point Matching¡±, ASC, 2016.
+Please cite these papers if you use this code:
+[1] Y. M. Li and J. T. Zhou, "Fast and Effective Image Copy-Move Forgery Detection via Hierarchical Feature Point Matching",  To appear in IEEE Trans. on Inf. Forensics and Security (T-IFS), 2018.
+[2] Y. M. Li and J. T. Zhou, "Image Copy-Move Forgery Detection Using Hierarchical Feature Point Matching", ASC, 2016.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 1. We have recomplied the vl_feat libary for adaption, which is also included our source code.  
 2. The result of each run could be slightly different due to the randomness involved. 
