@@ -14,7 +14,7 @@ Please cite these papers if you use this code:
 
 We test the results based on the current code (windows7 && matlab2017a): 
               TPR          FPR       F1
-F220:         100%,      1.82%       99.10
+F220:         100%,      2.72%       98.65
 F600:         97.50%     5.68%       91.50
 GRIP:         100%,      0%          100
 FAU:          100%,      2.08%       98.97
