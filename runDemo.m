@@ -13,7 +13,7 @@ clear all
 dbstop if error
 addpath 'lib\vlfeat-0.9.18\mexw64' 'functions'
 
-img_name = 'barrier_copy_s250.png';
+img_name = '00001_2_scale.jpg';
 
 im_file = ['test_pic\', img_name];
 fprintf('Processing: %s\n',im_file);
